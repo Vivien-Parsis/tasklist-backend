@@ -16,8 +16,6 @@ pipeline {
 
     DOCKERHUB = credentials('dockerhub-password')
 
-    SONAR_PROJECT_KEY = 'Vivien-PARSIS-Tasklist-Backend'
-
     DATABASE_URL = 'mysql://user:pass@localhost:3306/tasklist'
   }
 
